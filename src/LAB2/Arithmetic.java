@@ -9,9 +9,8 @@ public class Arithmetic {
         System.out.println("Enter two numbers : ");
         n1 = s.nextInt();
         n2 = s.nextInt();
-        System.out.println("\nChoose one from :- ");
-        System.out.println("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n");
         System.out.println("Enter your choice : ");
+        System.out.println("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division");
         ch  = s.nextInt();
         switch (ch){
             case 1 :
