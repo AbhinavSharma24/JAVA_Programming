@@ -24,7 +24,6 @@ class First_N_Prime
                     break;
                 }
             }
-
             if(flag==0)
             {
                 System.out.print(num+" ");

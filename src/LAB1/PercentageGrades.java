@@ -11,13 +11,13 @@ class PercentageGrades
         int percent = s.nextInt();
         if(percent <= 50)
         {
-            System.out.println("Equivalent grade to "+percent+" percentage is F");
+            System.out.println(" Equivalent grade to "+percent+" percentage is F");
         }
         else
         {
             if((percent<=60))
             {
-                System.out.println("Equivalent grade to "+percent+" percentage is E");
+                System.out.println(" Equivalent grade to "+percent+" percentage is E");
             }
             else
             {
