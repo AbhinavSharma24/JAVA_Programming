@@ -20,7 +20,7 @@ public class ColoredBox extends Box{
     static  String color;
     void print() {
         super.print();
-        System.out.println(color);
+        System.out.println("Color entered = " + color);
     }
     public static void main(String[] args) {
         ColoredBox coloredBox = new ColoredBox();
