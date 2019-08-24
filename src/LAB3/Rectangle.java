@@ -22,14 +22,14 @@ class Rectangle extends Shape
     @Override
     void print()
     {
-        System.out.println("Length ="+d1);
-        System.out.println("Breadth ="+d2);
+        System.out.println("Length = "+d1);
+        System.out.println("Breadth = "+d2);
     }
 
     public static void main(String[] args) {
         Rectangle rectangle=new Rectangle();
 
-        System.out.println("Enter length and breadth of rectangle ");
+        System.out.println("Enter length and breadth of rectangle :-");
 
         rectangle.get();
         rectangle.print();
