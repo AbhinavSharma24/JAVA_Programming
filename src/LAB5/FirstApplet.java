@@ -17,6 +17,6 @@ public class FirstApplet extends Applet {
 }
 
 /*
-<applet code = "FirstApplet.class" height = 300 width = 300>
+<applet code="FirstApplet.class" height=300 width=300>
 </applet>
  */
