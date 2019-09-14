@@ -12,7 +12,7 @@ public class dividedByZero {
             a = s.nextInt();
             System.out.println("Enter value of B : ");
             b = s.nextInt();
-            System.out.println("Answer : " + a/b);
+            System.out.println("Result : " + a/b);
         }
         catch(Exception e){
             System.out.println(e);
