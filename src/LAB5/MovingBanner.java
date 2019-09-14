@@ -1,14 +1,5 @@
 package LAB5;
 
-/*
-import java.applet.Applet;
-
-public class MovingBanner extends Applet {
-    //use multithreading and repaint() method
-}
-*/
-
-
 import java.applet.Applet;
 import java.awt.*;
 
@@ -34,16 +25,13 @@ public class MovingBanner extends Applet implements Runnable {
     private void update() {
 
         x = x + 10 * flag;
-        if (x > 260)
+        if (x > 300)
             flag = -1;
         if (x < 10)
             flag = 1;
     }
-
     public void run() {
-
         while (true) {
-
             // Repainting the screen
             // calls the paint function
             repaint();
