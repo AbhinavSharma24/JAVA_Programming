@@ -9,7 +9,7 @@ public class MovingBanner extends Applet implements Runnable {
     private int x, y, flag;
 
     public void init() {
-        display = "Abhinav Sharma";
+        display = "Hello Abhinav Sharma";
         x = 10;
         y = 100;
         flag = 1;

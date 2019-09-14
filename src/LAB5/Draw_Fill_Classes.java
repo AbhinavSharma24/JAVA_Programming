@@ -6,7 +6,7 @@ import java.awt.*;
 public class Draw_Fill_Classes extends Applet {
     public void paint(Graphics g)
     {
-        g.setColor(Color.blue);
+        g.setColor(Color.red);
 
         g.drawLine(30, 30, 200, 100);
 

@@ -3,7 +3,9 @@ package LAB5;
 import java.applet.Applet;
 import java.awt.*;
 
-/* <applet code="AppControls.class" height="350" width="330"></applet> */
+/*
+    <applet code="AppControls.class" height="350" width="330"></applet>
+*/
 
 public class AppControls extends Applet {
     public void init() {
@@ -27,7 +29,7 @@ public class AppControls extends Applet {
         Label l = new Label("Test Label");
         this.add(l);
 
-        TextField t = new TextField("Test TextField", 40);
+        TextField t = new TextField("Test Text Field", 40);
         this.add(t);
 
         TextArea textArea = new TextArea("Text Area", 5, 30);
