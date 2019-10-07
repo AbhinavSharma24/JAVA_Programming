@@ -16,7 +16,7 @@ public class BoxCons {
         Scanner s  = new Scanner(System.in);
         System.out.println("Volume of non parametrised constructor : ");
         b1.volume();
-        System.out.println("Enter the width,height and depth of Box 1 : ");
+        System.out.println("Enter the width, height and depth of Box 1 : ");
         b1.width=s.nextInt();
         b1.height=s.nextInt();
         b1.depth=s.nextInt();

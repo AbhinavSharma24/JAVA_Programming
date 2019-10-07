@@ -19,7 +19,7 @@ public class This {
         System.out.println("Volume of parametrised constructor : ");
         b1.volume();
 
-        System.out.println("Enter the width,height and depth of Box  : ");
+        System.out.println("Enter the width, height and depth of Box  : ");
         b1.width=s.nextInt();
         b1.height=s.nextInt();
         b1.depth=s.nextInt();
