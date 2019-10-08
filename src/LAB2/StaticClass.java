@@ -3,8 +3,8 @@ package LAB2;
 public class StaticClass {
 
     // static variable
-    static int x = 100;
-    static int y;
+    private static int x = 100;
+    private static int y;
 
     // static block is executed once when class gets loaded
     static {

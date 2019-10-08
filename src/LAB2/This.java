@@ -3,13 +3,14 @@ package LAB2;
 import java.util.Scanner;
 
 public class This {
-    int width,height,depth;
-    This(int width,int height,int depth){
+    private int width,height,depth;
+    
+    private This(int width, int height, int depth){
         this.width=width;
         this.height=height;
         this.depth=depth;
     }
-    void volume(){
+    private void volume(){
         System.out.println("Volume : "+width*height*depth);
     }
     public static void main(String[] args) {
