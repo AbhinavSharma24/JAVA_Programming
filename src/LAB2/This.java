@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class This {
     private int width,height,depth;
-    
+
     private This(int width, int height, int depth){
         this.width=width;
         this.height=height;
