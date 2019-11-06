@@ -1,4 +1,4 @@
-package Thread_LAB;
+package LAB8;
 
 public class StringFile {
     public static void main(String[] args) {
