@@ -10,8 +10,8 @@ public class TableExample {
         f.setTitle("TableExample");
         String[][] data = {
                 {
-                    "Abhinav", "202", "B.Tech"}, {
-                    "Aditi", "45", "B.Com."}
+                    "Abhinav", "2499", "B.Tech"}, {
+                    "Aditi", "4501", "B.Com."}
         };
         String []columnNames={"Name","Roll No","Course"};
         j=new JTable(data,columnNames);

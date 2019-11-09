@@ -5,7 +5,7 @@ import javax.swing.*;
 public class FirstSwing {
     public static void main(String[] args)  {
         JFrame f=new JFrame();
-        JButton b=new JButton("click");
+        JButton b=new JButton("Click here!");
         JTextField tf=new JTextField();
         tf.setBounds(10,10,200,40);
         b.setBounds(210,10,100,40);
