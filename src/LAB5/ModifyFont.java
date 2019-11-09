@@ -11,7 +11,7 @@ public class ModifyFont extends Applet {
     public void paint(Graphics g){
         g.setFont(f1);
         g.setColor(Color.black);
-        g.drawString("Hello Abhinav, Font Modified.", 70, 70);
+        g.drawString("Hello Abhinav!!! Font Modified.", 70, 70);
     }
 }
 
