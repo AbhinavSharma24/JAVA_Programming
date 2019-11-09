@@ -9,7 +9,7 @@ public class ButtonListener extends Applet implements ActionListener {
     int times=0;
     public void init(){
 
-        b=new Button("Click");
+        b=new Button("Click here!");
         b.setBounds(100,100,50,20);
         add(b);
         b.addActionListener(this);

@@ -4,7 +4,7 @@ public class CurrentThread extends Thread {
     @Override
     public void run() {
         //Current thread name
-        System.out.println("Current thread name : " +         Thread.currentThread().getName());
+        System.out.println("Current Thread name :: " +         Thread.currentThread().getName());
     }
 
     public static void main(String[] args) {
