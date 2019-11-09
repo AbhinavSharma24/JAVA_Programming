@@ -14,7 +14,7 @@ public class ItemListenerDemo extends Applet implements ItemListener {
         l.setAlignment(1);
         l.setSize(400,100);
         checkbox1=new Checkbox("C++");
-        checkbox2=new Checkbox("java");
+        checkbox2=new Checkbox("JAVA");
         checkbox1.setBounds(100,100,50,50);
         checkbox2.setBounds(100,150,50,50);
         add(checkbox1);
@@ -32,7 +32,7 @@ public class ItemListenerDemo extends Applet implements ItemListener {
             l.setText("C++ Checkbox: "
                     + (e.getStateChange()==1?"checked":"unchecked"));
         if(e.getSource()==checkbox2)
-            l.setText("Java Checkbox: "
+            l.setText("JAVA Checkbox: "
                     + (e.getStateChange()==1?"checked":"unchecked"));
     }
 }

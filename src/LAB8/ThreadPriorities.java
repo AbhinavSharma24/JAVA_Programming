@@ -4,8 +4,8 @@ public class ThreadPriorities extends Thread {
     @Override
     public void run() {
         //Current thread name and priority
-        System.out.println ("Thread running : " + Thread.currentThread().getName()
-                + " and Running Thread Priority : " + Thread.currentThread().getPriority());
+        System.out.println ("Thread running :: " + Thread.currentThread().getName()
+                + " and Running Thread Priority :: " + Thread.currentThread().getPriority());
     }
     public static void main(String[] args) {
         //creating two threads

@@ -19,7 +19,7 @@ public class MouseEventListener extends Applet implements MouseListener,MouseMot
     }
     @Override
     public void mouseClicked(MouseEvent e) {
-        l.setText("mouse clicked");
+        l.setText("Mouse Clicked");
     }
 
     @Override
@@ -33,17 +33,17 @@ public class MouseEventListener extends Applet implements MouseListener,MouseMot
 
     @Override
     public void mouseEntered(MouseEvent e) {
-        l.setText("mouse entered");
+        l.setText("Mouse Entered");
     }
 
     @Override
     public void mouseExited(MouseEvent e) {
-        l.setText("mouse exited");
+        l.setText("Mouse Exited");
     }
 
     @Override
     public void mouseDragged(MouseEvent e) {
-        l.setText("mouse dragged");
+        l.setText("Mouse Dragged");
     }
 
     @Override
